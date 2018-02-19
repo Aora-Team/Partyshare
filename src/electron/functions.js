@@ -1,7 +1,7 @@
 const { basename } = require('path');
 const fse = require('fs-extra');
 const fs = require('fs');
-
+// Note for later
 /**
  * Filter function for ignoring hidden files.
  * @param {String} fileName
@@ -59,4 +59,3 @@ module.exports = {
     getFiles,
     statWithPromise,
 };
-
